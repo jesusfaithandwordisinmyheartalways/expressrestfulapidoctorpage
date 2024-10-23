@@ -1,0 +1,630 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Almendra+Display&family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Almendra+Display&family=Mate+SC&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Almendra+Display&family=Julius+Sans+One&family=Mate+SC&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Almendra+Display&family=Julius+Sans+One&family=Mandali&family=Mate+SC&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Almendra+Display&family=Besley:ital,wght@0,400..900;1,400..900&family=Julius+Sans+One&family=Mandali&family=Mate+SC&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+
+
+
+
+
+
+
+/*------------------------HEADER------------------------------*/
+
+.welcome-background {
+    background-image: url('../images/wdoctor.png');
+    background-size: contain;
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    animation-name: DoctorsWelcome;
+    animation-duration: 8s;
+    animation-iteration-count:infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+
+
+@keyframes DoctorsWelcome {
+    0% {background-image: url('../images/wdoctor.png');}
+    40% {background-image: url('../images/aidocotr.webp')}
+    78%  {background-image: url('../images/asiandoctor.webp')}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Header-Container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.Header-Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 auto;
+    max-width: 2000px;
+}
+
+
+.Header-Wrapper img {
+    width: 60px;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------MAIN CONTENT-----------------------------------------*/
+
+
+
+
+.Main-Content {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.Main-Wrapper {
+    display: flex;
+    align-items:baseline;
+    justify-content:baseline;
+    margin:0 auto;
+    max-width: 3000px;
+    gap:145px
+
+}
+
+
+
+
+
+
+.Mobile-Doctor-Wrapper {
+    background-color: whitesmoke;
+    border-radius: 20%;
+    height: 630px;
+    border-top: 3px solid lightgrey;
+    border-left:3px solid lightgrey;
+    border-right:3px solid lightgrey;
+    border-bottom:3px solid lightgrey;
+    margin-left: 10px;
+}
+
+
+
+.mobile-text-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin:0 auto;
+    max-width: 500px;
+
+}
+
+
+
+.mobile-text-wrapper img {
+    width: 50px;
+    object-fit: contain;
+}
+
+
+
+.mobile-text-wrapper p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color:black;
+
+}
+
+
+
+
+
+
+.Female-Doctor-Image{
+    position: relative;
+    top:0px;
+    left: 0px;
+    animation-name: femaleDoctor;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+
+ 
+    @keyframes femaleDoctor {
+        from {top:0px; left: 0px;}
+        to {top:20px; left:0px}
+    }
+
+
+
+.Female-Doctor-Image img {
+    border-radius: 1%;
+    object-fit: contain;
+}
+
+
+
+
+
+
+.mobile-text-wrapper-two {
+    display: flex;
+    align-items:baseline;
+    justify-content: center;
+    margin:0 auto;
+}
+
+
+
+.mobile-text-wrapper-two  p {
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.3rem;
+}
+
+
+
+
+.mobile-text-wrapper-three {
+    display: flex;
+    align-items:baseline;
+    justify-content: center;
+    margin:0 auto;
+    margin-block:-20px;
+    font-size: 0.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+
+.mobile-text-wrapper-four {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin:0 auto; 
+    margin-block:20px 
+}
+
+
+
+.mobile-text-wrapper-four img {
+    width: 30px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+
+
+.mobile-text-wrapper-four span {
+    font-size: 0.9rem;
+    color:seagreen;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:10px
+}
+
+
+
+
+
+.Healthcare-tag-line {
+    width:310px;
+    font-size: 1.3rem;
+}
+
+
+.Healthcare-tag-line h3 {
+    font-family: "Aboreto", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    color:black;
+    font-size: 2rem;
+
+}
+
+
+.Healthcare-tag-line p {
+    font-family: "Almendra Display", serif;
+  font-weight: 800;
+  font-style: normal;
+  color:black;
+  font-size: 1.4rem;
+}
+
+
+
+
+.Healthcare-icons-wrapper {
+   display: flex;
+   align-items:center;
+   justify-content: space-around;
+   margin:0 auto;
+}
+
+.Healthcare-icons-wrapper span {
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 0.8rem;
+}
+
+
+.Healthcare-icons-wrapper img {
+    width:30px;
+    object-fit: contain;
+}
+
+
+
+
+
+.Healthcare-download-app-wrapper {
+    background-color:red;
+    padding:0.9em 2em;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: -10px;
+    cursor: pointer;
+
+}
+
+.Healthcare-download-app-wrapper img {
+   width:30px;
+   object-fit: contain;
+   margin-left: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------DOCTOR CONTENT-----------------------------------------*/
+
+
+
+
+
+
+
+.Doctor-Content-Container {
+    width:100%;
+    overflow: hidden;
+}
+
+
+
+.Doctor-Content-Wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 1500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Doctor-Content-Container-Two {
+    width:100%;
+    overflow: hidden;
+    background:rgba(36, 46, 45, 0.999);
+    height: 510px;
+}
+
+
+
+.Doctor-Content-Wrapper-Two {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin:0 auto;
+    max-width: 3000px;
+
+}
+
+
+
+.Doctor-Content-Wrapper-Two img {
+    width: 310px;
+    object-fit: contain;
+    border:1px solid whitesmoke
+}
+
+
+.Doctor-Content-Wrapper-Two h3 {
+    color:blueviolet;
+    font-weight: 800;
+    font-family: "Julius Sans One", sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+
+.Doctor-Content-Wrapper-Two p {
+    width:350px;
+    font-family: "Mandali", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.8rem;
+    color:rgba(172, 129, 178, 0.908);
+    z-index: 3
+
+}
+
+
+
+
+.payment-management span {
+    color:white;
+    background:purple;
+    outline:1px solid green;
+    padding:0.8em 3em;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------DOCTOR CONTENT TWO-----------------------------------------*/
+
+
+
+
+
+.Doctor-Container-Three {
+    width:100%;
+    overflow: hidden;
+    background:rgba(64, 206, 234, 0.911);
+}
+
+
+
+
+.Online-Schedule-Wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+
+.Online-Schedule-Wrapper img {
+    width:710px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+    animation-name: DoctorImage;
+    animation-direction:alternate;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-duration: 3s;
+}
+
+
+
+
+
+
+.Online-Schedule-Wrapper  h3 {
+    font-size: 2rem;
+    font-family: "Besley", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.Online-Schedule-Wrapper p {
+    font-size: 0.8rem;
+    color:black;
+    width:490px;
+    font-family: "Mandali", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------DOCTOR CONTENT THREE-----------------------------------------*/
+
+
+
+.Doctor-Container-Four {
+    width:100%;
+    overflow: hidden;
+    background:whitesmoke
+    
+}
+
+
+
+
+.Video-Conference-Wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin:0 auto;
+    max-width: 2000px;
+}
+
+
+.Video-Conference-Wrapper h3 {
+    font-size: 2rem;
+    color:purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+.Video-Conference-Wrapper img {
+    width:410px;
+    object-fit: contain;
+}
+
+
+
+
+.Video-Conference-Wrapper p {
+    font-family: "Mandali", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width:410px;
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------FOOTER-----------------------------------------*/
+
+
+.Footer-Container {
+    width:100%;
+    overflow: hidden;
+    background:rgb(202, 122, 202)
+
+}
+
+
+
+.Footer-Wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    margin:0 auto;
+    max-width: 1000px;
+}
+
+
+
+.Footer-Wrapper h3 {
+    color:white;
+    font-size: 0.9rem;
+}
+
+
+.Footer-Wrapper img {
+    width:40px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+
+.Footer-Wrapper span {
+    font-size: 0.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+.footer-contact-info {
+    margin-top: -101px;
+}
+
+
+
+.footer-insurances {
+margin-top:-10px
+}
+
+.footer-insurances p {
+    font-size: 0.8rem;
+}
