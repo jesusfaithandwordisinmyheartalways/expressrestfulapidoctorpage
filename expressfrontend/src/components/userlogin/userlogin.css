@@ -95,9 +95,15 @@ body {
 
 
 
+
+
+
+
+
 .Form-Container {
     width: 100%;
     overflow: hidden;
+    margin-block:-30px
 }
 
 
@@ -152,5 +158,15 @@ body {
 
 
 
+
+
+.Data-Message-Wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 550px;
+    margin-top: 20px;
+}
 
 

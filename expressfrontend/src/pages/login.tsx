@@ -184,7 +184,11 @@ const Login:React.FC = () => {
               </div>
    
 
-                {message && <p> {message} </p>}
+
+
+                  <div className='Data-Message-Wrapper'>
+                    { message && <div><p>{message}</p></div> }
+                  </div>
 
                 { userProfile && (
                   <div>
