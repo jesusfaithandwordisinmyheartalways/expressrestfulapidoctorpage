@@ -276,7 +276,7 @@ const LandPage:React.FC = () => {
 
              <div className='Doctor-Container-Three'>
 
-                <div style={{position: 'relative', top: scrollTop > 490 ? '0px' : '90px', transition: 'top 2s linear'}}>
+                <div style={{position: 'relative', top: scrollTop > 900 ? '0px' : '90px', transition: 'top 2s linear'}}>
 
                   <div className={'Online-Schedule-Wrapper'}>
 
@@ -317,7 +317,7 @@ const LandPage:React.FC = () => {
 
             <div className='Doctor-Container-Four'>
 
-              <div style={{position: 'relative', top: scrollTop > 1000 ? '0px' : '90px', transition: 'top 3s linear'}}>
+              <div style={{position: 'relative', top: scrollTop > 1250 ? '0px' : '130px', transition: 'top 3s linear'}}>
 
 
                 <div className='Video-Conference-Wrapper'>

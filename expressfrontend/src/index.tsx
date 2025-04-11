@@ -19,8 +19,7 @@ const App:React.FC = () => {
       <>
       <Router>
         <Routes>
-          <Route path='/' element={<Login />} />
-          <Route path='/landpage' element={<LandPage />} />
+          <Route path='/' element={<LandPage />} />
         </Routes>
       </Router>
       
